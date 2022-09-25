@@ -15,7 +15,8 @@ export class ShoppingListComponent implements OnInit {
     this.ingredientList = [
       new Ingredient('Meat', 200, 'grams'),
       new Ingredient('Mayo', 20, 'grams'),
-      new Ingredient('Bread', 1, 'burger bread')
+      new Ingredient('Bread', 1, 'burger bread'),
+      new Ingredient('Lettuce', null, null)
     ];
    }
 
