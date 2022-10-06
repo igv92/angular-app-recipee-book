@@ -13,7 +13,7 @@ export class RecipeItemComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    console.log("Recipe added: " + this.recipeData.name)
+    // console.log("Recipe added: " + this.recipeData.name)
   }
 
 }
