@@ -7,8 +7,9 @@
 <div class="row">
     <ul class="list-group">
         <app-recipe-item 
-            *ngFor="let recipe of recipeList"
-            [recipeData] = 'recipe'
+            *ngFor="let recipeEl of recipeList"
+            [recipeData] = "recipeEl"
+            (recipeSelected) = "onRecipeSelected(recipeEl)"
         ></app-recipe-item>
     </ul>
 </div>
