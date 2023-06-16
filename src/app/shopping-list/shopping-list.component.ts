@@ -13,7 +13,7 @@ export class ShoppingListComponent implements OnInit {
 
   constructor() {
     this.ingredientList = [
-      new Ingredient('Meat', 100, 'grams'),
+      new Ingredient('Meat', 150, 'grams'),
       new Ingredient('Mayo', 20, 'grams'),
       new Ingredient('Bread', 1, 'burger bread'),
       new Ingredient('Lettuce', null, null)
